@@ -10,7 +10,7 @@ The design focuses on a royal, warm aesthetic inspired by Indian heritage, using
 - JavaScript  
 
 ## Live Demo
-🔗 [Add live link here]
+🔗 https://chai-culture-assignment-by-aman.netlify.app/
 
 ## Author
 Aman Kumar Arya
