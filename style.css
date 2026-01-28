@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2b1b0f, #4a2c1a);
+  color: #f5f1ea;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 420px;
+  padding: 30px 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #d4af37; /* royal gold */
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e6dccf;
+  margin-bottom: 25px;
+}
+
+.coming-soon {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: #f0c75e;
+}
+
+.email-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.email-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.email-box button {
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: none;
+  background-color: #d4af37;
+  color: #2b1b0f;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.email-box button:hover {
+  background-color: #c9a635;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #e6dccf;
+  font-size: 0.9rem;
+}
+
+.socials a:hover {
+  color: #d4af37;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+}
